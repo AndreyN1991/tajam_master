@@ -2,6 +2,11 @@
     background: url("img/header_background.png") no-repeat center;
 }
 
-.container {
+.logo {
+    font-size: 30pt;
+    vertical-align: middle;
+}
 
+.nav a {
+    font-size: 13pt;
 }
