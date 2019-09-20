@@ -31,7 +31,7 @@ ul, li {
 .menu__item a {
     font-family: 'Roboto', serif;
     font-weight: 900;
-    font-size: 13pt;
+    font-size: 1.063em;
     color: #ffffff;
     word-wrap: normal;    
 }
