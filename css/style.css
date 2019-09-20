@@ -1,16 +1,27 @@
-.header {
-    background: url('../img/header_background.png') no-repeat;
-    height: 500px;
-}
-
+/* Спецификация */
 ul, li {
     display: block;
     padding: 0;
     margin: 0;
 }
 
+/* Первый блок */
+.header {
+    background: url('../img/header_background.png') no-repeat center;
+    height: 500px;
+}
+
+.logo {
+    margin-top: 15px;
+}
+
+.menu {
+    margin-top: 36px;
+}
+
 .menu__item {
     margin-right: 25px;
+    white-space: nowrap;
 }
 
 .menu__item:last-child {
@@ -22,5 +33,10 @@ ul, li {
     font-weight: 900;
     font-size: 13pt;
     color: #ffffff;
-    word-wrap: normal;
+    word-wrap: normal;    
+}
+
+.menu__item a:hover {
+    color: #00e0d0;
+    text-decoration: none;
 }
