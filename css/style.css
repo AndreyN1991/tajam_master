@@ -5,10 +5,9 @@ ul, li {
     margin: 0;
 }
 
-/* Первый блок */
+/* Навигация */
 .header {
     background: url('../img/header_background.png') no-repeat center;
-    height: 500px;
 }
 
 .logo {
@@ -39,4 +38,29 @@ ul, li {
 .menu__item a:hover {
     color: #00e0d0;
     text-decoration: none;
+}
+
+/* Слайдер */
+.headercarousel {
+    margin-top: 165px;
+}
+
+.slider_item {
+    text-align: center;
+    padding: 100px;
+}
+
+.carousel-item h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 32pt;
+    text-align: center;
+}
+
+.carousel-item p {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 14pt;
 }
