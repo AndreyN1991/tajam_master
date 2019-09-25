@@ -43,11 +43,12 @@ ul, li {
 /* Слайдер */
 .headercarousel {
     margin-top: 165px;
+    height: 410px;
 }
 
-.slider_item {
+.slider-item {
     text-align: center;
-    padding: 100px;
+    padding: 58px 100px 0 100px;
 }
 
 .carousel-item h1 {
@@ -58,9 +59,39 @@ ul, li {
     text-align: center;
 }
 
-.carousel-item p {
+.carousel-item h1::after {
+    content: "";
+    background-color: #00e0d0;
+    width: 50px;
+    height: 1px;
+    position: absolute;
+    left: 48%;
+    top: 70px;
+}
+
+.carousel-item .slider-item_text {
     font-family: 'Roboto', serif;
     font-weight: 300;
     color: #ffffff;
     font-size: 14pt;
 }
+
+.carousel-item .slider-item_button {
+    font-family: 'Hammersmith One', serif;
+    font-weight: 400;
+    font-size: 16pt;
+    color: #00e0d0;
+    background-color: transparent;
+    border: #00e0d0 solid 1px;
+    margin-top: 52px;
+}
+
+.carousel-item .slider-item_button:hover {
+    color: #ffffff;
+    background-color: #00e0d0;
+    border-color: #00e0d0;
+}
+
+.slider-item_button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 224, 208, 0.5);
+  }
