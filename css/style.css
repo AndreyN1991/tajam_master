@@ -43,12 +43,11 @@ ul, li {
 /* Слайдер */
 .headercarousel {
     margin-top: 165px;
-    height: 410px;
 }
 
 .slider-item {
     text-align: center;
-    padding: 58px 100px 0 100px;
+    padding: 58px 100px 135px 100px;
 }
 
 .carousel-item h1 {
@@ -102,3 +101,46 @@ ul, li {
 .slider-item_button:focus {
     box-shadow: 0 0 0 0.2rem rgba(0, 224, 208, 0.5);
   }
+
+.slider-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.slider-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .slider-indicators li {
+        transition: none;
+    }
+}
+  
+.slider-indicators .active {
+    border-color: #00e0d0;
+    background-color: #00e0d0;
+}
