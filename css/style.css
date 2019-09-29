@@ -144,3 +144,11 @@ ul, li {
     border-color: #00e0d0;
     background-color: #00e0d0;
 }
+
+/* Медиа */
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: o auto;
+    }
+}
