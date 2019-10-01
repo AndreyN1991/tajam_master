@@ -155,12 +155,12 @@ ul, li {
 /* Медиа */
 @media screen and (max-width: 991px) {
     .headercarousel {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .slider-item {
         text-align: center;
-        padding: 30px 100px 30px 100px;
+        padding: 30px 10px 30px 10px;
     }
 
     .menu__item:not(:first-child) {
