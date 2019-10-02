@@ -82,7 +82,7 @@ ul, li {
     font-size: 14pt;
 }
 
-.carousel-item .slider-item_button {
+.slider-item_button {
     font-family: 'Hammersmith One', serif;
     font-weight: 400;
     font-size: 16pt;
@@ -98,7 +98,7 @@ ul, li {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.carousel-item .slider-item_button:hover {
+.slider-item_button:hover {
     color: #ffffff;
     background-color: #00e0d0;
     border-color: #00e0d0;
@@ -150,6 +150,35 @@ ul, li {
 .slider-indicators .active {
     border-color: #00e0d0;
     background-color: #00e0d0;
+}
+
+/* О нас */
+.story {
+    padding: 70px 0;
+}
+
+.story__image {
+
+}
+
+.story__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 22pt;
+    color: #413d4b;
+    letter-spacing: 2px;
+}
+
+.story__text {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 14pt;
+    line-height: 22pt;
+    color: #413d4b;
+}
+
+.story__button {
+    margin-top: 30px;
 }
 
 /* Медиа */
