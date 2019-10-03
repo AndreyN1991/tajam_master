@@ -158,7 +158,7 @@ ul, li {
 }
 
 .story__image {
-
+    align-items: center;
 }
 
 .story__title {
@@ -181,6 +181,21 @@ ul, li {
     margin-top: 30px;
 }
 
+.story__video {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.story__video iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /* Медиа */
 @media screen and (max-width: 991px) {
     .headercarousel {
@@ -200,5 +215,17 @@ ul, li {
 @media screen and (max-width: 767px) {
     .carousel-item h1::after {
         top: 120px;
+    }
+
+    .story {
+        padding: 20px 0;
+    }
+
+    .story__title {
+        text-align: center;
+    }
+    
+    .story .story__button {
+        text-align: center;
     }
 }
