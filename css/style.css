@@ -253,6 +253,79 @@ ul, li {
     color: #413d4b;
 }
 
+/* Команда */
+.team {
+    background: url('../img/team_background.png') no-repeat center top;
+    padding: 70px 0;
+}
+
+.team__title {
+    text-align: center;    
+}
+
+.team__title-main {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 22pt;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.team__title-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14pt;
+    color: #f9f9f9;
+}
+
+.team__title::after {
+    content: "";
+    background-color: #f9f9f9;
+    width: 50px;
+    height: 1px;
+    position: absolute;
+    left: 48%;
+    top: 85px;
+}
+
+.team__member {
+    margin: 70px 0;
+    text-align: center;
+    width: 220px;    
+}
+
+.team__text {
+    border: 1px solid #f9f9f9;
+    padding-top: 10px;
+}
+
+.team__member-name {
+    font-family: 'Roboto', serif;
+    font-weight: 900;
+    font-size: 14pt;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.team__member-post {
+    font-family: 'Roboto', serif;
+    font-weight: 100;
+    font-size: 13pt;
+    color: #f9f9f9;
+}
+
+.team__footer {
+    text-align: center;
+    align-items: center;
+}
+
+.team__join {
+    font-family: 'Roboto', serif;
+    font-weight: 100;
+    font-size: 14pt;
+    color: #f9f9f9;    
+}
+
 /* Медиа */
 @media screen and (max-width: 991px) {
     .headercarousel {

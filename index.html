@@ -8,7 +8,7 @@
     <title>Tajam Master</title>
 </head>
 <body>
-    <header class="header">
+    <header id="header" class="header">
         <div class="container">
             <nav class="menu mb-1 navbar navbar-expand-lg navbar-dark primary-color">
                 <img class="logo" src="img/logo.png" alt="Tajam">
@@ -17,10 +17,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="basicExampleNav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="menu__item"><a href="#">HOME</a></li>
+                        <li class="menu__item"><a href="#header">HOME</a></li>
                         <li class="menu__item"><a href="#story">ABOUT</a></li>
-                        <li class="menu__item"><a href="#">EXPERTISE</a></li>
-                        <li class="menu__item"><a href="#">TEAMS</a></li>
+                        <li class="menu__item"><a href="#expertise">EXPERTISE</a></li>
+                        <li class="menu__item"><a href="#team">TEAMS</a></li>
                         <li class="menu__item"><a href="#">WORKS</a></li>
                         <li class="menu__item"><a href="#">PEOPLE SAY</a></li>
                         <li class="menu__item"><a href="#">CONTACT</a></li>
@@ -102,35 +102,35 @@
                         <p class="feature__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                     </div>
                 </div>
-                <div class="col m-auto">
+                <div class="col">
                     <div class="feature">
                         <img src="img/branding.png" alt="Branding" class="feature__icon">
                         <h3 class="feature__title">BRANDING IDENTITY</h3>
                         <p class="feature__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                     </div>
                 </div>
-                <div class="col m-auto">
+                <div class="col">
                     <div class="feature">
                         <img src="img/mobileapp.png" alt="Mobile App" class="feature__icon">
                         <h3 class="feature__title">MOBILE APP</h3>
                         <p class="feature__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                     </div>
                 </div>
-                <div class="col m-auto">
+                <div class="col">
                     <div class="feature">
                         <img src="img/search.png" alt="Search" class="feature__icon">
                         <h3 class="feature__title">SEARCH ENGINE OPTIMIZATION</h3>
                         <p class="feature__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                     </div>
                 </div>
-                <div class="col m-auto">
+                <div class="col">
                     <div class="feature">
                         <img src="img/game.png" alt="Game" class="feature__icon">
                         <h3 class="feature__title">GAME DEVELOPMENT</h3>
                         <p class="feature__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                     </div>
                 </div>
-                <div class="col m-auto">
+                <div class="col">
                     <div class="feature">
                         <img src="img/love.png" alt="Love" class="feature__icon">
                         <h3 class="feature__title">MADE WITH LOVE</h3>
@@ -140,9 +140,65 @@
             </div>
         </div>
     </section>
+    <section id="team" class="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="team__title">
+                        <h2 class="team__title-main">MEET OUR AMAZING TEAM</h2>
+                        <p class="team__title-text">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="team__member">
+                        <img src="img/blank.png" alt="SEMF UCUK" class="team__member-image">
+                        <div class="team__text">
+                            <h3 class="team__member-name">SEMF UCUK</h3>
+                            <p class="team__member-post">CEO & FOUNDER</p>
+                        </div>                        
+                    </div>                    
+                </div>
+                <div class="col">
+                    <div class="team__member">
+                        <img src="img/blank.png" alt="DIK ADALIN" class="team__member-image">
+                        <div class="team__text">
+                            <h3 class="team__member-name">DIK ADALIN</h3>
+                            <p class="team__member-post">ENGINEERING</p>
+                        </div>                        
+                    </div>                    
+                </div>
+                <div class="col">
+                    <div class="team__member">
+                        <img src="img/blank.png" alt="JENG KOL" class="team__member-image">
+                        <div class="team__text">
+                            <h3 class="team__member-name">JENG KOL</h3>
+                            <p class="team__member-post">DESIGNER</p>
+                        </div>                        
+                    </div>                    
+                </div>
+                <div class="col">
+                    <div class="team__member">
+                        <img src="img/blank.png" alt="PET ROMAK" class="team__member-image">
+                        <div class="team__text">
+                            <h3 class="team__member-name">PET ROMAK</h3>
+                            <p class="team__member-post">MARKETING</p>
+                        </div>                        
+                    </div>                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 team__footer">
+                    <p class="team__join">Become part of our dream team, let’s join us ! </p>
+                    <p class="story__button"><a class="slider-item_button" href="#team" role="button">WE ARE HIRING</a></p>
+                </div>                
+            </div>
+        </div>
+    </section>
     <footer class="footer">
         <del class="container">
-
+            
         </del>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
