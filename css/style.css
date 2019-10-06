@@ -196,6 +196,63 @@ ul, li {
     left: 0;
 }
 
+/* Предложения */
+.expertise {
+    padding: 70px 0;
+}
+
+.expertise__title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.expertise__title-main {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 22pt;
+    color: #413d4b;
+    letter-spacing: 2px;
+}
+
+.expertise__title-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14pt;
+    color: #2f2d35;
+}
+
+.expertise__title::after {
+    content: "";
+    background-color: #2f2d35;
+    width: 50px;
+    height: 1px;
+    position: absolute;
+    left: 48%;
+    top: 85px;
+}
+
+.feature {
+    text-align: center;
+    width: 310px;
+    margin-bottom: 80px;
+}
+
+.feature__title {
+    font-family: 'Roboto', serif;
+    font-weight: 900;
+    font-size: 14pt;
+    color: #413d4b;
+    margin: 30px 0;
+}
+
+.feature__text {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 14pt;
+    line-height: 22pt;
+    color: #413d4b;
+}
+
 /* Медиа */
 @media screen and (max-width: 991px) {
     .headercarousel {
