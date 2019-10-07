@@ -6,8 +6,12 @@ ul, li {
 }
 
 /* Навигация */
-.header {
-    background: url('../img/header_background.webp') no-repeat center top;
+.header {    
+    background: url('../img/header_background.webp') no-repeat center top;    
+}
+
+.menu {
+    text-align: right;
 }
 
 .logo {
@@ -36,7 +40,7 @@ ul, li {
     text-decoration: none;
 }
 
-.menu_icon {
+.menu__icon {
     display: inline-block;
     width: 1.5em;
     height: 1.5em;
@@ -48,7 +52,7 @@ ul, li {
 }
 
 .menu__toggler:focus {
-    border: 1px solid #00e0d0;
+    outline-color: #00e0d0;
 }
 
 /* Слайдер */
@@ -352,6 +356,10 @@ ul, li {
 }
 
 @media screen and (max-width: 767px) {
+    .header {
+        background-color: #130c33;
+    }
+
     .carousel-item h1::after {
         top: 120px;
     }
@@ -366,5 +374,17 @@ ul, li {
     
     .story .story__button {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 367px) {
+    .carousel-item h1::after {
+        top: 170px;
+    }
+}
+
+@media screen and (max-width: 348px) {
+    .carousel-item h1::after {
+        top: 220px;
     }
 }
