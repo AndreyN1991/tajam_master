@@ -208,7 +208,7 @@ ul, li {
 
 .feature {
     text-align: center;
-    width: 310px;
+    min-width: 310px;
     margin-bottom: 80px;
 }
 
@@ -341,6 +341,12 @@ ul, li {
     
     .story .story__button {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    .expertise__title::after {
+        top: 110px;
     }
 }
 
