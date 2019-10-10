@@ -235,7 +235,8 @@ ul, li {
 }
 
 .team__title {
-    text-align: center;    
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 .team__title-main {
@@ -264,14 +265,17 @@ ul, li {
 }
 
 .team__member {
-    margin: 70px 0;
+    margin: 25px 0;
     text-align: center;
-    width: 220px;    
+    align-items: center;
+    min-width: 220px;    
 }
 
 .team__text {
     border: 1px solid #f9f9f9;
     padding-top: 10px;
+    max-width: 220px;
+    margin: 0 auto;
 }
 
 .team__member-name {
@@ -298,7 +302,8 @@ ul, li {
     font-family: 'Roboto', serif;
     font-weight: 100;
     font-size: 14pt;
-    color: #f9f9f9;    
+    color: #f9f9f9;
+    margin-top: 40px;
 }
 
 .footer {
@@ -307,6 +312,12 @@ ul, li {
 }
 
 /* Медиа */
+@media screen and (max-width: 1199px) {
+    .team {
+        background-color: #130c33;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .headercarousel {
         margin-top: 10px;
@@ -347,6 +358,16 @@ ul, li {
 @media screen and (max-width: 488px) {
     .expertise__title::after {
         top: 110px;
+    }
+
+    .team__title::after {
+        top: 110px;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    .team__title::after {
+        top: 140px;
     }
 }
 
