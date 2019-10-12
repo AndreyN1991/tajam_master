@@ -306,14 +306,141 @@ ul, li {
     margin-top: 40px;
 }
 
+/* Подвал */
+
 .footer {
     background: url('../img/footer_background.webp') no-repeat center top;
     padding: 70px 0;
+    color: #f9f9f9;
+}
+
+.footer__describtion-text {
+    margin-top: 25px;
+}
+
+.footer__address-title {
+    font-family: 'Roboto', serif;
+    font-weight: 900;
+    font-size: 15pt;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.footer__address-icon {
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 4px;
+}
+
+.footer__newsletter {
+    margin-bottom: 80px;
+}
+
+.footer__newsletter-title {
+    font-family: 'Roboto', serif;
+    font-weight: 900;
+    font-size: 15pt;
+    letter-spacing: 2px;
+}
+
+.footer__newsletter-mailing {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.footer__newsletter-mail {
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    width: 100%;
+    height: 45px;
+    outline: #00e0d0;
+    padding: 15px;
+    color: #f9f9f9;
+}
+
+.footer__newsletter-button {
+    background: #ffffff url('../img/paper122.png') center center no-repeat;
+    border: 1px solid #ffffff;
+    outline: #00e0d0;
+    opacity: 0.5;
+    width: 90px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+.footer__newsletter-link {
+    color: #ffffff;
+}
+
+.footer__newsletter-link:nth-child(1):hover {
+    color: #3578E5;
+}
+
+.footer__newsletter-link:nth-child(2):hover {
+    color: #1da1f2;
+}
+
+.footer__newsletter-link:nth-child(3):hover {
+    color: orange;
+}
+
+.footer__newsletter-link:nth-child(4):hover .footer__newsletter-media {    
+    background: -webkit-radial-gradient(50px 220px, #ffda75 30%,#ff3a49 43%,#ff3a49 50%,#e518a1 70%,#6634e1 100%);    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer__newsletter-link:nth-child(5):hover .footer__newsletter-media {
+    background-color: red;
+    color: #ffffff;
+}
+
+.footer__newsletter-link:nth-child(6):hover {
+    color: red;
+}
+
+.footer__newsletter-media {
+    margin-top: 5px;
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+.footer__newsletter-media_fb {
+    padding: 10px 15px;
+}
+
+.footer__newsletter-media_gp {
+    padding: 10px 5px;
+}
+
+.footer__option:not(:last-child) {
+    margin-right: 20px;
+}
+
+.footer__option {
+    font-family: 'Roboto', serif;
+    font-weight: 100;
+    color: #ffffff;
+    font-size: 14pt;
+}
+
+.footer__option:hover {
+    color: #00e0d0;
+    text-decoration: none;
+}
+
+.footer__copyright {
+    font-family: 'Roboto', serif;
+    font-weight: 100;
+    color: #ffffff;
+    font-size: 14pt;
 }
 
 /* Медиа */
 @media screen and (max-width: 1199px) {
-    .team {
+    .team, .footer {
         background-color: #130c33;
     }
 }
@@ -352,6 +479,10 @@ ul, li {
     
     .story .story__button {
         text-align: center;
+    }
+
+    .footer__copyright {
+        margin-top: 10px;
     }
 }
 

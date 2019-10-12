@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="img/favicon.ico" rel="icon">
     <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display:400,700,900|Roboto:100,300,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">    
     <title>Tajam Master</title>
@@ -242,28 +243,50 @@
         </div>
     </section>
 -->
-    <footer class="footer">
+    <footer id="footer" class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <img class="logo" src="img/logo.png" alt="Tajam">
-                    <p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+                <div class="col-md-4 footer__describtion">
+                    <img class="footer__logo" src="img/logo.png" alt="Tajam">
+                    <p class="footer__describtion-text">lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>                    
                 </div>
                 <div class="col-md-4">
-                    <h4>OUR STUDIO</h4>
-                    <p>Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia</p>
-                    <p>(+62) 21-2224 3333</p>
+                    <div class="footer__address">
+                        <h4 class="footer__address-title">OUR STUDIO</h4>
+                        <div class="d-flex">
+                            <i class="fa fa-map-marker footer__address-icon" aria-hidden="true"></i>
+                            <p class="footer__address-city">Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia</p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa fa-phone footer__address-icon" aria-hidden="true"></i>
+                            <p class="footer__address-phone">(+62) 21-2224 3333</p>
+                        </div>                        
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <h4>STAY IN TOUCH</h4>
+                <div class="col-md-4 footer__newsletter">
+                    <h4 class="footer__newsletter-title">STAY IN TOUCH</h4>
+                    <form class="footer__newsletter-mailing d-flex" action="">
+                        <input class="footer__newsletter-mail" type="email" name="" id="" placeholder="Subscribe our newsletter">
+                        <input class="footer__newsletter-button" type="submit" value="">
+                    </form>
+                    <div class="footer__newsletter-social">
+                        <a href="https://www.facebook.com/" class="footer__newsletter-link"><i class="fa fa-facebook footer__newsletter-media footer__newsletter-media_fb" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/" class="footer__newsletter-link"><i class="fa fa-twitter footer__newsletter-media" aria-hidden="true"></i></a>
+                        <a href="https://dribbble.com/" class="footer__newsletter-link"><i class="fa fa-dribbble footer__newsletter-media" aria-hidden="true"></i></a>                        
+                        <a href="https://www.instagram.com/" class="footer__newsletter-link"><i class="fa fa-instagram footer__newsletter-media" aria-hidden="true"></i></a>                        
+                        <a href="https://support.google.com/plus/?hl=ru#topic=9259565" class="footer__newsletter-link"><i class="fa fa-google-plus footer__newsletter-media footer__newsletter-media_gp" aria-hidden="true"></i></a>                        
+                        <a href="https://www.youtube.com/" class="footer__newsletter-link"><i class="fa fa-youtube-play footer__newsletter-media" aria-hidden="true"></i></a>                        
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
-
+                <div class="col-md-4 footer__options">
+                    <a href="#footer" class="footer__option">HELP</a>
+                    <a href="#footer" class="footer__option">TERMS & CONDITION</a>
+                    <a href="#footer" class="footer__option">PRIVACY</a>
                 </div>
-                <div class="col-md-3">
-
+                <div class="col-md-4 ml-auto">
+                    <p class="footer__copyright">Copyright © 2015 - Tajem Creative</p>
                 </div>
             </div>
         </div>
